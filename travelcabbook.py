@@ -12,7 +12,7 @@ km=source-destination
 if "-"in source and destination:
     print("please enter valid details: ")
 elif source==0 or destination==0:
-    print("please enter valid details")     
+    print("please enter valid details") 
 elif catagory=="bike":
     total=km*bprice
     print(total)
