@@ -1,0 +1,9 @@
+lia=[1,6,8,9,3,9,5,4,11]
+c=len(lia)//2
+list1=lia[:c]
+list2=lia[c:]
+list1.sort()
+list2.sort()
+c=list1+list2
+c.sort()
+print(c)
